@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #92a096;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid green;
+    box-shadow: 0 2px 4px rgba(210, 5, 5, 0.1);
+    width: 400px;
+    height: 570px;
+}
+h2 {
+    margin-bottom: 32px;
+    text-align: center;
+}
+.form-group {
+    margin: 0 5px 7px 5px;
+    width: 375px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #e10b0b;
+}
+label {
+    display: block;
+    margin-bottom: 2px;
+    color:#92a096;
+}
+input[type="text"], [type="email"], input[type="date"], input[type="password"], input[type="tel"], select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 2px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+button {
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+button:hover {
+    background-color: #45a049;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.home-Page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 1rem;
+    width: 120px;
+    /* border: 2px solid red; */
+}
+
+.home-Page:hover{
+    text-decoration: underline;
+    font-size: 1.1rem;
+}

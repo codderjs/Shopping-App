@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:none;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color:whitesmoke;
+    
+}
+.box{
+    width: 1500px;
+    height: 450px;
+    margin: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+.product-details{
+    width: 950px;
+    height:435px ;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.product-details p{
+    font-size:1.2rem;
+}
+.product-details a{
+    color:red;
+}
+.review{
+    margin-left: 35px;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    
+}
+.discount{
+    margin-left: 30px;
+    font-size: 1.3rem;
+    color: red;
+}
+.price{
+    font-size: 1.3rem;
+}
+.mrp{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+.mrp p {
+    color:gray;
+}
+.mrp span{
+    text-decoration: line-through;
+}
+
+.button{
+    height: 40px;
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-size: medium;
+
+}
+.cart:hover{
+      background-color: #F7CA00;
+}
+.buy:hover{
+    background-color: #FA8900;
+}
+.cart{
+    background-color: #FFD814;
+}
+.buy{
+    background-color: #FFA41C;
+}
+
+.picture{
+    width: 300px;
+    height:390px ;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.picture-box{
+    width: 290px;
+    height: 250px;
+    margin-top: 50px;
+    background-image: url("../image/71+MnjtkHZL._SX679_.jpg");
+    background-size: contain;  
+    background-repeat: no-repeat; 
+
+}
+
+.text-box{
+    width: 80%;
+    height: 115px;
+    margin-top: 5px;
+    padding: 5px 5px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+.item-1{
+    width: 80%;
+    height: 60px;
+    padding: 5px 5px 0px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.name{
+    height: 50px;
+    width: 50px;
+    display:flex;
+    align-items: end;
+    text-align: center;
+}
+.item2{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.item{
+    width: 90px;
+    height: 35px;
+    display: flex;
+    text-align: center;
+    font-size: 0.80rem;
+    color:#2027a1;
+   
+}
+.Replacement{
+    background-image: url("../image/icon-returns._CB484059092_.png");
+    background-size: cover;
+}
+.Delivery{
+    background-image: url("../image/trust_icon_free_shipping_81px._CB630870460_.png");
+    background-size: cover;
+    
+}
+.Pay-on-Delivery{
+    background-image: url("../image/icon-cod._CB485937110_.png");
+    background-size: cover;
+}
+.Amazon-Delivered{
+    background-image: url("../image/icon-amazon-delivered._CB485933725_.png");
+    background-size: cover;
+}
+
+.Warranty{
+    background-image: url("../image/icon-warranty._CB485935626_.png");
+    background-size: cover;
+}
+
+.about{
+    height: 200px;
+    width: 1230px;
+    margin-top: 3px;
+    margin-left: 100px;
+}
+
+.about h3{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.about-ul{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+h1{
+    color :black;
+    text-align: center;
+}
+p{
+    color:black;
+    padding:3ch;
+}

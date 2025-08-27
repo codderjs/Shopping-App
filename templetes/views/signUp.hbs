@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="css/signUp.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <div class="main-box"> 
+
+            <form method="POST" action="/signUp" id="signup-form" >
+                <div class="input-box">
+                    <input type="text" name="firstname"  required value=""  autocomplete="off"> <label>First Name *</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="text" name="lastname" required value="" autocomplete="off"> <label>Last Name *</label>
+                </div>
+
+                <div class="input-box" id="email" >
+                    <input type="email" name="email" id="email" required value=""  autocomplete="off"> <label>Email *</label>
+                </div>
+
+                <div class="input-box" id="password">
+                    <input type="password" name="password" id="password" required value="" autocomplete="off"> <label>Password (at least 5 characters) *</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" name="confirmPassword" id="confirmPassword" required value="" autocomplete="off"> <label>Re-enter Password *</label>
+                </div>
+
+                <div class="check">
+                    <input type="checkbox" id="agree" name="agree">
+                    <label for="agree">I agree to the <a href="#">Terms & Conditions</a></label>
+                </div>
+                
+                <button type="submit" class="btn" name="signup">Sign Up</button>
+            </form>
+            <div class="member">Already a member? <a href="/login">Login</a></div>
+            <div class="homePage"><a href="/">Shop now </a></div>
+        </div>
+    </div>    
+    
+
+    <script src="js/client.js"></script>
+
+</body>
+</html>
